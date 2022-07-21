@@ -15,6 +15,7 @@ public class HwSpringBootGradleApplication {
 		SpringApplication.run(HwSpringBootGradleApplication.class, args);
 	}
 
+	//just comment for test
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 		return args -> {
